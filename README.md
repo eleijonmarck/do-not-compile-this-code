@@ -1,4 +1,5 @@
-https://user-images.githubusercontent.com/7727602/226141260-e60b1be5-c12e-447c-ab07-6fc07dd1b93a.mov
+https://user-images.githubusercontent.com/7727602/226141379-c5f378c3-0833-4b69-bbc0-700ea1455f89.mov
+
 
 # Arbitrary code execution during compliation POC
 This proof-of-concept demonstrates how Rust macros can be abused to interact with the machine that the compliation happens on. When the `do_not_compile_this_code` is opened in VS Code with the `rust-analyzer` plugin, the editor expands the `some_macro!()` macro. This macro reads then content of `~/.ssh/id_rsa_do_not_try_this_at_home` and deletes the file. This behavior also occurs when cargo build is run or when the application is run.
