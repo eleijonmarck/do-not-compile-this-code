@@ -3,7 +3,7 @@ This proof-of-concept demonstrates how Rust macros can be abused to interact wit
 
 The key insight is that Rust macros are expanded before/during compilation, i.e. arbitrary code execution during compilation. This is a demostration that this is a huge vulnerability in the rust ecosystem that needs to be taken seriosly.
 
-https://user-images.githubusercontent.com/7727602/226141379-c5f378c3-0833-4b69-bbc0-700ea1455f89.mov
+https://user-images.githubusercontent.com/7727602/226141592-21707f47-54d8-48a5-b825-e2bce3ccbbf0.mov
 
 ## Try it out yourself:
 * Clone this repo
