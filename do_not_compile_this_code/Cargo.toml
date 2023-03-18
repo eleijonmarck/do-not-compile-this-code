@@ -1,0 +1,10 @@
+[package]
+name = "do_not_compile_this_code"
+version = "0.1.0"
+authors = ["Eric Leijonmarck <eric.leijonmarck@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+innocent_lib = { path = "../innocent_lib", version = "0.1" }
