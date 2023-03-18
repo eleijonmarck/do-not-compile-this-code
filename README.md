@@ -16,14 +16,4 @@ echo "do not try this at home" > ~/.ssh/id_rsa_do_not_try_this_at_home
 ```
 - Open `do_not_compile_this_code` in your IDE (eg: VSCode) with `rust-analyzer`
 
-<<<<<<< HEAD
 Once open, VSCode will analyze and index the code, including the expansion of macros, then you should see the contents of your `.ssh/id_rsa_do_not_try_this_at_home` will be deleted. 🤫 oops!
-
-- You can trigger the same behavior at compile-time by running `cargo build` in the `do_not_compile_this_code` directory or by running the main application.
-||||||| parent of 21fccac (only rust-analyzer)
-Once open, VSCode will analyze and index the code, including the expansion of macros, then you should see the contents of your `.ssh/id_rsa_do_not_try_this_at_home` will be deleted. 🤫 oops!
-
-- You can trigger the same behavior at compile-time by running `cargo build` in the `do_not_compile_this_code` directory or by running the main application.
-=======
-Once open, VSCode will analyze and index the code, including the expansion of macros, then you should see the contents of your `.ssh/id_rsa_do_not_try_this_at_home` will be deleted. 🤫 oops!
->>>>>>> 21fccac (only rust-analyzer)
