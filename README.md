@@ -5,7 +5,7 @@ The key insight is that Rust macros are expanded before/during compilation, i.e.
 
 https://user-images.githubusercontent.com/7727602/226141379-c5f378c3-0833-4b69-bbc0-700ea1455f89.mov
 
-To try it out:
+## Try it out yourself:
 * Clone this repo
 ```bash
 git clone https://github.com/eleijonmarck/do-not-run-this-code.git
