@@ -1,4 +1,4 @@
-# Arbitrary code execution during compliation POC
+# Arbitrary code execution during compilation POC
 This proof-of-concept demonstrates how Rust macros can be abused to interact with the machine that the compliation happens on. When the `do_not_compile_this_code` is opened in VS Code with the `rust-analyzer` plugin, the editor expands the `some_macro!()` macro. This macro reads then content of `~/.ssh/id_rsa_do_not_try_this_at_home` and deletes the file. This behavior also occurs when cargo build is run or when the application is run.
 
 The key insight is that Rust macros are expanded before/during compilation, i.e. arbitrary code execution during compilation. This is a demostration that this is a huge vulnerability in the rust ecosystem that needs to be taken seriosly.
